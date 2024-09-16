@@ -1,0 +1,617 @@
+{
+    "documentation": "https://opencagedata.com/api",
+    "licenses": [
+        {
+            "name": "see attribution guide",
+            "url": "https://opencagedata.com/credits"
+        }
+    ],
+    "rate": {
+        "limit": 2500,
+        "remaining": 2483,
+        "reset": 1726012800
+    },
+    "results": [
+        {
+            "annotations": {
+                "DMS": {
+                    "lat": "32\u00b0 59' 19.66056'' S",
+                    "lng": "151\u00b0 43' 24.79368'' E"
+                },
+                "MGRS": "56HLJ8074049231",
+                "Maidenhead": "QF57ua62tq",
+                "Mercator": {
+                    "x": 16889788.75,
+                    "y": -3870553.515
+                },
+                "OSM": {
+                    "edit_url": "https://www.openstreetmap.org/edit?way=17163215#map=17/-32.98879/151.72355",
+                    "note_url": "https://www.openstreetmap.org/note/new#map=17/-32.98879/151.72355&layers=N",
+                    "url": "https://www.openstreetmap.org/?mlat=-32.98879&mlon=151.72355#map=17/-32.98879/151.72355"
+                },
+                "UN_M49": {
+                    "regions": {
+                        "AU": "036",
+                        "AUSTRALASIA": "053",
+                        "OCEANIA": "009",
+                        "WORLD": "001"
+                    },
+                    "statistical_groupings": [
+                        "MEDC"
+                    ]
+                },
+                "callingcode": 61,
+                "currency": {
+                    "alternate_symbols": [
+                        "A$"
+                    ],
+                    "decimal_mark": ".",
+                    "disambiguate_symbol": "A$",
+                    "html_entity": "$",
+                    "iso_code": "AUD",
+                    "iso_numeric": "036",
+                    "name": "Australian Dollar",
+                    "smallest_denomination": 5,
+                    "subunit": "Cent",
+                    "subunit_to_unit": 100,
+                    "symbol": "$",
+                    "symbol_first": 1,
+                    "thousands_separator": ","
+                },
+                "flag": "\ud83c\udde6\ud83c\uddfa",
+                "geohash": "r65ukd9dr4cx0ft5k2hm",
+                "qibla": 277.74,
+                "roadinfo": {
+                    "drive_on": "left",
+                    "road": "Bathurst Street",
+                    "road_type": "residential",
+                    "speed_in": "km/h"
+                },
+                "sun": {
+                    "rise": {
+                        "apparent": 1725998400,
+                        "astronomical": 1725993540,
+                        "civil": 1725996960,
+                        "nautical": 1725995220
+                    },
+                    "set": {
+                        "apparent": 1725954000,
+                        "astronomical": 1725958920,
+                        "civil": 1725955500,
+                        "nautical": 1725957240
+                    }
+                },
+                "timezone": {
+                    "name": "Australia/Sydney",
+                    "now_in_dst": 0,
+                    "offset_sec": 36000,
+                    "offset_string": "+1000",
+                    "short_name": "AEST"
+                },
+                "what3words": {
+                    "words": "suitcase.leave.cookery"
+                }
+            },
+            "bounds": {
+                "northeast": {
+                    "lat": -32.9880668,
+                    "lng": 151.7241291
+                },
+                "southwest": {
+                    "lat": -32.9893261,
+                    "lng": 151.7227641
+                }
+            },
+            "components": {
+                "ISO_3166-1_alpha-2": "AU",
+                "ISO_3166-1_alpha-3": "AUS",
+                "ISO_3166-2": [
+                    "AU-NSW"
+                ],
+                "_category": "road",
+                "_normalized_city": "Newcastle-Maitland",
+                "_type": "road",
+                "city": "Newcastle-Maitland",
+                "continent": "Oceania",
+                "country": "Australia",
+                "country_code": "au",
+                "municipality": "Lake Macquarie City Council",
+                "postcode": "2290",
+                "road": "Bathurst Street",
+                "road_type": "residential",
+                "state": "New South Wales",
+                "state_code": "NSW",
+                "suburb": "Dudley"
+            },
+            "confidence": 9,
+            "formatted": "Bathurst Street, Dudley NSW 2290, Australia",
+            "geometry": {
+                "lat": -32.9887946,
+                "lng": 151.7235538
+            }
+        },
+        {
+            "annotations": {
+                "DMS": {
+                    "lat": "32\u00b0 47' 59.02044'' S",
+                    "lng": "151\u00b0 25' 47.53380'' E"
+                },
+                "MGRS": "56HLJ5298669823",
+                "Maidenhead": "QF57re18ob",
+                "Mercator": {
+                    "x": 16857096.075,
+                    "y": -3845606.59
+                },
+                "OSM": {
+                    "edit_url": "https://www.openstreetmap.org/edit?way=68714178#map=17/-32.79973/151.42987",
+                    "note_url": "https://www.openstreetmap.org/note/new#map=17/-32.79973/151.42987&layers=N",
+                    "url": "https://www.openstreetmap.org/?mlat=-32.79973&mlon=151.42987#map=17/-32.79973/151.42987"
+                },
+                "UN_M49": {
+                    "regions": {
+                        "AU": "036",
+                        "AUSTRALASIA": "053",
+                        "OCEANIA": "009",
+                        "WORLD": "001"
+                    },
+                    "statistical_groupings": [
+                        "MEDC"
+                    ]
+                },
+                "callingcode": 61,
+                "currency": {
+                    "alternate_symbols": [
+                        "A$"
+                    ],
+                    "decimal_mark": ".",
+                    "disambiguate_symbol": "A$",
+                    "html_entity": "$",
+                    "iso_code": "AUD",
+                    "iso_numeric": "036",
+                    "name": "Australian Dollar",
+                    "smallest_denomination": 5,
+                    "subunit": "Cent",
+                    "subunit_to_unit": 100,
+                    "symbol": "$",
+                    "symbol_first": 1,
+                    "thousands_separator": ","
+                },
+                "flag": "\ud83c\udde6\ud83c\uddfa",
+                "geohash": "r65tmugzexx3ukj6dcbp",
+                "qibla": 277.98,
+                "roadinfo": {
+                    "drive_on": "left",
+                    "road": "Bathurst Street",
+                    "road_type": "tertiary",
+                    "speed_in": "km/h"
+                },
+                "sun": {
+                    "rise": {
+                        "apparent": 1725998460,
+                        "astronomical": 1725993600,
+                        "civil": 1725997020,
+                        "nautical": 1725995280
+                    },
+                    "set": {
+                        "apparent": 1725954120,
+                        "astronomical": 1725958980,
+                        "civil": 1725955560,
+                        "nautical": 1725957300
+                    }
+                },
+                "timezone": {
+                    "name": "Australia/Sydney",
+                    "now_in_dst": 0,
+                    "offset_sec": 36000,
+                    "offset_string": "+1000",
+                    "short_name": "AEST"
+                },
+                "what3words": {
+                    "words": "intact.sanded.artful"
+                }
+            },
+            "bounds": {
+                "northeast": {
+                    "lat": -32.7932791,
+                    "lng": 151.4311373
+                },
+                "southwest": {
+                    "lat": -32.8069802,
+                    "lng": 151.4285316
+                }
+            },
+            "components": {
+                "ISO_3166-1_alpha-2": "AU",
+                "ISO_3166-1_alpha-3": "AUS",
+                "ISO_3166-2": [
+                    "AU-NSW"
+                ],
+                "_category": "road",
+                "_normalized_city": "Abermain",
+                "_type": "road",
+                "continent": "Oceania",
+                "country": "Australia",
+                "country_code": "au",
+                "municipality": "Cessnock City Council",
+                "postcode": "2326",
+                "road": "Bathurst Street",
+                "road_type": "tertiary",
+                "state": "New South Wales",
+                "state_code": "NSW",
+                "village": "Abermain"
+            },
+            "confidence": 8,
+            "formatted": "Bathurst Street, Abermain NSW 2326, Australia",
+            "geometry": {
+                "lat": -32.7997279,
+                "lng": 151.4298705
+            }
+        },
+        {
+            "annotations": {
+                "DMS": {
+                    "lat": "32\u00b0 46' 41.53296'' S",
+                    "lng": "151\u00b0 26' 3.34644'' E"
+                },
+                "MGRS": "56HLJ5336272216",
+                "Maidenhead": "QF57rf23cf",
+                "Mercator": {
+                    "x": 16857585.035,
+                    "y": -3842769.909
+                },
+                "OSM": {
+                    "edit_url": "https://www.openstreetmap.org/edit?way=1118795125#map=17/-32.77820/151.43426",
+                    "note_url": "https://www.openstreetmap.org/note/new#map=17/-32.77820/151.43426&layers=N",
+                    "url": "https://www.openstreetmap.org/?mlat=-32.77820&mlon=151.43426#map=17/-32.77820/151.43426"
+                },
+                "UN_M49": {
+                    "regions": {
+                        "AU": "036",
+                        "AUSTRALASIA": "053",
+                        "OCEANIA": "009",
+                        "WORLD": "001"
+                    },
+                    "statistical_groupings": [
+                        "MEDC"
+                    ]
+                },
+                "callingcode": 61,
+                "currency": {
+                    "alternate_symbols": [
+                        "A$"
+                    ],
+                    "decimal_mark": ".",
+                    "disambiguate_symbol": "A$",
+                    "html_entity": "$",
+                    "iso_code": "AUD",
+                    "iso_numeric": "036",
+                    "name": "Australian Dollar",
+                    "smallest_denomination": 5,
+                    "subunit": "Cent",
+                    "subunit_to_unit": 100,
+                    "symbol": "$",
+                    "symbol_first": 1,
+                    "thousands_separator": ","
+                },
+                "flag": "\ud83c\udde6\ud83c\uddfa",
+                "geohash": "r65ttbzj45fx74t0pj3z",
+                "qibla": 277.99,
+                "roadinfo": {
+                    "drive_on": "left",
+                    "road": "Bathurst Street",
+                    "road_type": "tertiary",
+                    "speed_in": "km/h"
+                },
+                "sun": {
+                    "rise": {
+                        "apparent": 1725998460,
+                        "astronomical": 1725993600,
+                        "civil": 1725997020,
+                        "nautical": 1725995280
+                    },
+                    "set": {
+                        "apparent": 1725954120,
+                        "astronomical": 1725958980,
+                        "civil": 1725955560,
+                        "nautical": 1725957300
+                    }
+                },
+                "timezone": {
+                    "name": "Australia/Sydney",
+                    "now_in_dst": 0,
+                    "offset_sec": 36000,
+                    "offset_string": "+1000",
+                    "short_name": "AEST"
+                },
+                "what3words": {
+                    "words": "sideshows.mindset.heater"
+                }
+            },
+            "bounds": {
+                "northeast": {
+                    "lat": -32.7757387,
+                    "lng": 151.4358079
+                },
+                "southwest": {
+                    "lat": -32.7876973,
+                    "lng": 151.4323108
+                }
+            },
+            "components": {
+                "ISO_3166-1_alpha-2": "AU",
+                "ISO_3166-1_alpha-3": "AUS",
+                "ISO_3166-2": [
+                    "AU-NSW"
+                ],
+                "_category": "road",
+                "_normalized_city": "Cessnock",
+                "_type": "road",
+                "city": "Cessnock",
+                "continent": "Oceania",
+                "country": "Australia",
+                "country_code": "au",
+                "municipality": "Cessnock City Council",
+                "postcode": "2326",
+                "road": "Bathurst Street",
+                "road_type": "tertiary",
+                "state": "New South Wales",
+                "state_code": "NSW"
+            },
+            "confidence": 9,
+            "formatted": "Bathurst Street, Cessnock NSW 2326, Australia",
+            "geometry": {
+                "lat": -32.7782036,
+                "lng": 151.4342629
+            }
+        },
+        {
+            "annotations": {
+                "DMS": {
+                    "lat": "32\u00b0 33' 54.43704'' S",
+                    "lng": "151\u00b0 10' 10.32384'' E"
+                },
+                "MGRS": "56HLJ2815995444",
+                "Maidenhead": "QF57ok04ii",
+                "Mercator": {
+                    "x": 16828115.593,
+                    "y": -3814725.113
+                },
+                "OSM": {
+                    "edit_url": "https://www.openstreetmap.org/edit?way=99046189#map=17/-32.56512/151.16953",
+                    "note_url": "https://www.openstreetmap.org/note/new#map=17/-32.56512/151.16953&layers=N",
+                    "url": "https://www.openstreetmap.org/?mlat=-32.56512&mlon=151.16953#map=17/-32.56512/151.16953"
+                },
+                "UN_M49": {
+                    "regions": {
+                        "AU": "036",
+                        "AUSTRALASIA": "053",
+                        "OCEANIA": "009",
+                        "WORLD": "001"
+                    },
+                    "statistical_groupings": [
+                        "MEDC"
+                    ]
+                },
+                "callingcode": 61,
+                "currency": {
+                    "alternate_symbols": [
+                        "A$"
+                    ],
+                    "decimal_mark": ".",
+                    "disambiguate_symbol": "A$",
+                    "html_entity": "$",
+                    "iso_code": "AUD",
+                    "iso_numeric": "036",
+                    "name": "Australian Dollar",
+                    "smallest_denomination": 5,
+                    "subunit": "Cent",
+                    "subunit_to_unit": 100,
+                    "symbol": "$",
+                    "symbol_first": 1,
+                    "thousands_separator": ","
+                },
+                "flag": "\ud83c\udde6\ud83c\uddfa",
+                "geohash": "r65qxzwq3mqspj5qp0w2",
+                "qibla": 278.23,
+                "roadinfo": {
+                    "drive_on": "left",
+                    "road": "Bathurst Street",
+                    "road_type": "residential",
+                    "speed_in": "km/h"
+                },
+                "sun": {
+                    "rise": {
+                        "apparent": 1725998520,
+                        "astronomical": 1725993660,
+                        "civil": 1725997080,
+                        "nautical": 1725995400
+                    },
+                    "set": {
+                        "apparent": 1725954180,
+                        "astronomical": 1725959040,
+                        "civil": 1725955620,
+                        "nautical": 1725957360
+                    }
+                },
+                "timezone": {
+                    "name": "Australia/Sydney",
+                    "now_in_dst": 0,
+                    "offset_sec": 36000,
+                    "offset_string": "+1000",
+                    "short_name": "AEST"
+                },
+                "what3words": {
+                    "words": "sidelines.corrugated.dances"
+                }
+            },
+            "bounds": {
+                "northeast": {
+                    "lat": -32.5642214,
+                    "lng": 151.1696788
+                },
+                "southwest": {
+                    "lat": -32.5660266,
+                    "lng": 151.1693526
+                }
+            },
+            "components": {
+                "ISO_3166-1_alpha-2": "AU",
+                "ISO_3166-1_alpha-3": "AUS",
+                "ISO_3166-2": [
+                    "AU-NSW"
+                ],
+                "_category": "road",
+                "_normalized_city": "Singleton",
+                "_type": "road",
+                "continent": "Oceania",
+                "country": "Australia",
+                "country_code": "au",
+                "municipality": "Singleton Council",
+                "postcode": "2330",
+                "road": "Bathurst Street",
+                "road_type": "residential",
+                "state": "New South Wales",
+                "state_code": "NSW",
+                "town": "Singleton"
+            },
+            "confidence": 9,
+            "formatted": "Bathurst Street, Singleton NSW 2330, Australia",
+            "geometry": {
+                "lat": -32.5651214,
+                "lng": 151.1695344
+            }
+        },
+        {
+            "annotations": {
+                "DMS": {
+                    "lat": "42\u00b0 52' 41.48112'' S",
+                    "lng": "147\u00b0 19' 45.20388'' E"
+                },
+                "MGRS": "55GEN2688752659",
+                "Maidenhead": "QE37pc99mf",
+                "Mercator": {
+                    "x": 16400614.117,
+                    "y": -5264365.981
+                },
+                "OSM": {
+                    "edit_url": "https://www.openstreetmap.org/edit?way=185547309#map=17/-42.87819/147.32922",
+                    "note_url": "https://www.openstreetmap.org/note/new#map=17/-42.87819/147.32922&layers=N",
+                    "url": "https://www.openstreetmap.org/?mlat=-42.87819&mlon=147.32922#map=17/-42.87819/147.32922"
+                },
+                "UN_M49": {
+                    "regions": {
+                        "AU": "036",
+                        "AUSTRALASIA": "053",
+                        "OCEANIA": "009",
+                        "WORLD": "001"
+                    },
+                    "statistical_groupings": [
+                        "MEDC"
+                    ]
+                },
+                "callingcode": 61,
+                "currency": {
+                    "alternate_symbols": [
+                        "A$"
+                    ],
+                    "decimal_mark": ".",
+                    "disambiguate_symbol": "A$",
+                    "html_entity": "$",
+                    "iso_code": "AUD",
+                    "iso_numeric": "036",
+                    "name": "Australian Dollar",
+                    "smallest_denomination": 5,
+                    "subunit": "Cent",
+                    "subunit_to_unit": 100,
+                    "symbol": "$",
+                    "symbol_first": 1,
+                    "thousands_separator": ","
+                },
+                "flag": "\ud83c\udde6\ud83c\uddfa",
+                "geohash": "r22u0d3b7wpnqvzxpbje",
+                "qibla": 274.97,
+                "roadinfo": {
+                    "drive_on": "left",
+                    "road": "Bathurst Street",
+                    "road_type": "secondary",
+                    "speed_in": "km/h"
+                },
+                "sun": {
+                    "rise": {
+                        "apparent": 1725999780,
+                        "astronomical": 1725994140,
+                        "civil": 1725998100,
+                        "nautical": 1725996120
+                    },
+                    "set": {
+                        "apparent": 1725954780,
+                        "astronomical": 1725960420,
+                        "civil": 1725956460,
+                        "nautical": 1725958440
+                    }
+                },
+                "timezone": {
+                    "name": "Australia/Hobart",
+                    "now_in_dst": 0,
+                    "offset_sec": 36000,
+                    "offset_string": "+1000",
+                    "short_name": "AEST"
+                },
+                "what3words": {
+                    "words": "soap.warbler.cars"
+                }
+            },
+            "bounds": {
+                "northeast": {
+                    "lat": -42.8779148,
+                    "lng": 147.3295738
+                },
+                "southwest": {
+                    "lat": -42.8783945,
+                    "lng": 147.3289749
+                }
+            },
+            "components": {
+                "ISO_3166-1_alpha-2": "AU",
+                "ISO_3166-1_alpha-3": "AUS",
+                "ISO_3166-2": [
+                    "AU-TAS"
+                ],
+                "_category": "road",
+                "_normalized_city": "Hobart",
+                "_type": "road",
+                "city": "Hobart",
+                "continent": "Oceania",
+                "country": "Australia",
+                "country_code": "au",
+                "municipality": "City of Hobart",
+                "postcode": "7000",
+                "road": "Bathurst Street",
+                "road_type": "secondary",
+                "state": "Tasmania",
+                "state_code": "TAS",
+                "suburb": "Hobart"
+            },
+            "confidence": 9,
+            "formatted": "Bathurst Street, Hobart TAS 7000, Australia",
+            "geometry": {
+                "lat": -42.8781892,
+                "lng": 147.3292233
+            }
+        }
+    ],
+    "status": {
+        "code": 200,
+        "message": "OK"
+    },
+    "stay_informed": {
+        "blog": "https://blog.opencagedata.com",
+        "mastodon": "https://en.osm.town/@opencage"
+    },
+    "thanks": "For using an OpenCage API",
+    "timestamp": {
+        "created_http": "Tue, 10 Sep 2024 06:37:41 GMT",
+        "created_unix": 1725950261
+    },
+    "total_results": 5
+}

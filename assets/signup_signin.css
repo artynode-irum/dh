@@ -1,0 +1,37 @@
+body {
+  background-image: url('img/sign_up image.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+    background-image: none;
+  }
+}
+
+.registration-page form input,
+.registration-page form select {
+  background: transparent;
+}
+
+.registration-page form {
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px #777778;
+  background: transparent;
+  backdrop-filter: blur(20px);
+}
+
+.registration-page form input:focus,
+.registration-page form input:active,
+.registration-page form select:focus {
+  background: transparent;
+}
+
+label{
+  font-weight: 500;
+  font-size: 18px;
+  margin: 5px 0px;
+}

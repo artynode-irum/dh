@@ -1,0 +1,143 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("responsive.css"); */
+/* 
+:root {
+  --skyblue-bg: #eff3f7;
+  --white-color: #fff; */
+/* --blue-text-icon: #6571ff; */
+/* --blue-text-icon: linear-gradient(
+    270deg,
+    #c3263f 0%,
+    #c3263f 25%,
+    #9c2941 75%
+  ); */
+/* --hover-blue-text-icon: #c3263f; */
+/* --hover-blue-text-icon: #5660d9; */
+/* --sidebar-hover: #e0e3ff; */
+/* --card-header: #e0e3ff; */
+/* --body-color: #212529;
+  --sidebar-font: #ffffff;
+  --footer-text: #6c757d;
+  --date-time: #0099fb;
+  --mehron: #cf2e2e;
+  --date-time-bg: #ccebfe;
+  --sidebar-color: #0a143f;
+} */
+
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+
+/* body { */
+/* font-family: Poppins, Helvetica, sans-serif; */
+/* font-family: Arial, sans-serif; */
+/* overflow-x: hidden; */
+/* Prevent horizontal scrolling */
+/* } */
+
+/* home page  */
+/* .home-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--nav-color);
+  padding: 20px;
+} */
+/* 
+.home-nav div a {
+  color: var(--white-color) !important;
+  text-decoration: none !important;
+  padding: 5px 15px;
+} */
+
+/* .request-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center; */
+/* justify-content: center; */
+/* } */
+
+/* .request-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 800px; */
+/* margin: auto; */
+/* margin-top: 40px;
+  padding: 20px;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255)
+} */
+
+/* .request-form form span {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between; */
+/* justify-content: end; */
+/* align-items: center; */
+/* } */
+
+/* .request-form form span section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.request-form form span section img{
+  width: 150px;
+} */
+/* 
+.request-form form input,
+.request-form form select {
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.request-form table tr {
+  background-color: transparent; */
+/* border: 0; */
+/* box-shadow: none;
+  border: none;
+} */
+
+/* .request-form table tr td {
+  padding: 20px 12px;
+
+ }
+
+.request-form table {
+  box-shadow: none;
+  border: none;
+}
+
+
+.request-form textarea {
+  height: 50px; */
+/* width: 400px; */
+/* }
+
+.width-hundred {
+  width: 100%;
+} */
+
+/* .scrollable-section { */
+  /* width: 100%; Adjust width as needed */
+  /* height: 250px; Fixed height */
+  /* overflow-y: auto; Scrollable content */
+  /* border-radius: 5px; */
+  /* border: 1px solid #ccc; Optional: border for visual clarity */
+  /* padding: 35px; Optional: padding for spacing */
+  /* box-sizing: border-box; Includes padding and border in element's total width and height */
+/* } */
+
+/* .required-asterisk {
+  color: red;
+} */

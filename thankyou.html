@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thank You</title>
+    <style>
+      /* General body styling */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
+      }
+
+      /* Container styling */
+      .thankyou-container {
+        text-align: center;
+        animation: fadeIn 1s ease-out;
+        position: relative;
+        z-index: 1;
+      }
+
+      /* Thank you message styling */
+      .thankyou-message {
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 40px;
+        max-width: 90%;
+        width: 500px;
+        margin: auto;
+        animation: scaleUp 0.5s ease-out;
+      }
+
+      /* Heading styling */
+      .thankyou-message h1 {
+        color: #0a143f;
+        /* color: #4caf50; */
+        margin-bottom: 20px;
+        font-size: 2em;
+        animation: slideIn 1s ease-out;
+      }
+
+      /* Paragraph styling */
+      .thankyou-message p {
+        font-size: 16px;
+        color: #333;
+        margin-bottom: 20px;
+        animation: fadeInText 1s ease-out;
+      }
+
+      .button-class {
+        border: none;
+        color: white;
+        background-image: linear-gradient(
+          270deg,
+          #c3263f 0%,
+          #c3263f 25%,
+          #9c2941 75%
+        );
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 6px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        .thankyou-message {
+          padding: 20px;
+          width: 90%;
+        }
+
+        .thankyou-message h1 {
+          font-size: 1.5em;
+        }
+
+        .thankyou-message p {
+          font-size: 14px;
+        }
+      }
+
+      /* Animations */
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      @keyframes scaleUp {
+        from {
+          transform: scale(0.9);
+          opacity: 0;
+        }
+        to {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+
+      @keyframes slideIn {
+        from {
+          transform: translateY(-20px);
+          opacity: 0;
+        }
+        to {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+
+      @keyframes fadeInText {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      /* Canvas styling for confetti effect */
+      #confetti {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none; /* Prevent interaction with the canvas */
+        z-index: 0; /* Behind the main content */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="thankyou-container">
+      <div class="thankyou-message">
+        <h1>Thank You!</h1>
+        <p>Your form has been submitted successfully.</p>
+        <p>We appreciate your input and will get back to you soon.</p>
+        <a href="index.php" class="button-class">Go to Homepage</a>
+      </div>
+    </div>
+    <canvas id="confetti"></canvas>
+    <script>
+      // Confetti effect script
+      const canvas = document.getElementById("confetti");
+      const ctx = canvas.getContext("2d");
+
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+
+      let particles = [];
+
+      function createConfetti() {
+        for (let i = 0; i < 100; i++) {
+          // Reduced number of particles
+          particles.push({
+            x: Math.random() * canvas.width,
+            y: Math.random() * canvas.height,
+            r: Math.random() * 3 + 1, // Smaller particles
+            d: Math.random() * 1 + 0.5, // Slower falling speed
+            color: `hsla(${Math.random() * 360}, 60%, 80%, 0.8)`, // Softer colors
+          });
+        }
+      }
+
+      function drawConfetti() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        particles.forEach((p) => {
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.r, 0, 2 * Math.PI);
+          ctx.fillStyle = p.color;
+          ctx.fill();
+        });
+      }
+
+      function updateConfetti() {
+        particles.forEach((p) => {
+          p.y += p.d;
+          p.x += Math.sin(p.y * 0.02) * 1; // Gentle movement
+
+          if (p.y > canvas.height) {
+            p.y = -10;
+            p.x = Math.random() * canvas.width;
+          }
+        });
+      }
+
+      function animateConfetti() {
+        drawConfetti();
+        updateConfetti();
+        requestAnimationFrame(animateConfetti);
+      }
+
+      createConfetti();
+      animateConfetti();
+    </script>
+  </body>
+</html>

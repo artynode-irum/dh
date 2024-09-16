@@ -1,0 +1,10 @@
+{
+    "require": {
+        "dompdf/dompdf": "^3.0",
+        "phpmailer/phpmailer": "^6.9",
+        "guzzlehttp/guzzle": "^7.9",
+        "endroid/qr-code": "^5.1",
+        "khanamiryan/qrcode-detector-decoder": "^2.0",
+        "stripe/stripe-php": "^15.9"
+    }
+}
